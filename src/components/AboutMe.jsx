@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutMe = () => {
     return (
-        <section className=" text-gray-400  flex flex-col items-center justify-center mt-[-4rem]">
+        <section className=" text-gray-400  flex flex-col items-center justify-center mt-[-4rem]" id="about">
             <div className="max-w-6xl flex flex-col md:flex-row items-center justify-evenly space-y-8 md:space-y-0 md:space-x-10">
 
 

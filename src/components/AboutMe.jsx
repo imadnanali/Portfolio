@@ -24,9 +24,9 @@ const AboutMe = () => {
                 </div>
                 <div className="">
                     {/* Profile Image */}
-                    <img className='w-[9.5rem] ms-60 backdrop-invert-0' src="/assets/dots.svg" alt="" />
+                    <img className='w-[9.5rem] ms-60 backdrop-invert-0' src="assets/dots.svg" alt="" />
                     <img
-                        src="/assets/mypic1.jpg"// Replace with your image URL
+                        src="assets/mypic1.jpg"// Replace with your image URL
                         alt="Your Name"
                         className="w-[22rem] rounded-full mt-[-8rem]"
                     />

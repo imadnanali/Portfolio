@@ -58,7 +58,7 @@ const Projects = () => {
                                 </div>
                             </div>
                             <div className="aboutimage py-10 lg:pe-5">
-                                <img src="/assets/weather.png" alt="image" className='lg:w-[50rem] rounded-lg' />
+                                <img src="assets/weather.png" alt="image" className='lg:w-[50rem] rounded-lg' />
                             </div>
                         </div>
 
@@ -67,7 +67,7 @@ const Projects = () => {
                 <div className='projectcard'>
                     <div className='flex h-lvh lg:flex-row flex-col-reverse lg:items-center justify-evenly'>
                         <div className="aboutimage py-10 lg:pe-5">
-                            <img src="/assets/todo.png" alt="image" className='lg:w-[50rem] rounded-lg' />
+                            <img src="assets/todo.png" alt="image" className='lg:w-[50rem] rounded-lg' />
                         </div>
                         <div className="skills lg:py-5 lg:pt-10 pt-5 px-5 lg:ps-5 lg:w-1/4">
                             <h1 className="heading py-10 uppercase text-white font-semibold text-xl">
@@ -139,7 +139,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div className="aboutimage py-10 lg:pe-5 border border-neutral-600 rounded-xl">
-                            <img src="/assets/triangle.png" alt="image" className='lg:w-[50rem] rounded-lg' />
+                            <img src="assets/triangle.png" alt="image" className='lg:w-[50rem] rounded-lg' />
                         </div>
                     </div>
                 </div>

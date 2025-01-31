@@ -24,7 +24,7 @@ const SkillTagCloud = () => {
       'bootstrap', 'css', 'express', 'figma',
       'git', 'github', 'html', 'javascript', 'mongo', 'nextjs',
       'nodejs', 'react', 'vscode', 'c', 'java', 'postman', 'tailwind', 'canva',
-    ].map((i) => `/assets/${i}.svg`);
+    ].map((i) => `assets/${i}.svg`);
 
     const sps = [];
     const radius = 27; // Radius of the sphere

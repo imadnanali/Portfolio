@@ -2,12 +2,12 @@ import React from "react";
 
 const AboutMe = () => {
     return (
-        <section className=" text-gray-400  flex flex-col items-center justify-center mt-[-4rem]" id="about">
+        <section className=" text-gray-400  flex flex-col items-center justify-center" id="about">
             <div className="max-w-6xl flex flex-col md:flex-row items-center justify-evenly space-y-8 md:space-y-0 md:space-x-10">
 
 
                 {/* About Me Content */}
-                <div className="space-y-4 w-1/2">
+                <div className="space-y-4 md:w-1/2 px-5 md:px-0">
                     <h2 className="text-3xl text-white font-bold">🚀 Who Am I?</h2>
                     <p className="text-lg text-gray-300 leading-relaxed">
                         Hey! I'm <span className="text-green-400 font-semibold"><i> Adnan Ali</i></span>.
@@ -22,13 +22,13 @@ const AboutMe = () => {
                         Beyond coding, I enjoy spending time with friends, engaging in thoughtful conversations, and continuously seeking ways to make a positive impact. Let’s connect and create something amazing together!
                     </p>
                 </div>
-                <div className="">
+                <div className="md:block flex flex-col md:pt-0 pt-10">
                     {/* Profile Image */}
-                    <img className='w-[9.5rem] ms-60 backdrop-invert-0' src="assets/dots.svg" alt="" />
+                    <img className='md:w-[9.5rem] w-[6rem] md:ms-60 ms-48 backdrop-invert-0 md:relative absolute' src="assets/dots.svg" alt="" />
                     <img
                         src="assets/mypic1.jpg"// Replace with your image URL
                         alt="Your Name"
-                        className="w-[22rem] rounded-full mt-[-8rem]"
+                        className="md:w-[22rem] flex items-center w-72 rounded-full md:mt-[-8rem]"
                     />
                 </div>
             </div>

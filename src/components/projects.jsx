@@ -17,12 +17,12 @@ const Projects = () => {
     }
 
     return (
-        <div id='projects'>
-            <div className="project  flex flex-col py-10">
+        <div className='md:mt-0 mt-[16rem]' id='projects'>
+            <div className="project flex flex-col py-10">
                 
 
-                <h1 className='px-24 font-semibold text-[2rem]'>All Creative projects.</h1>
-                <h3 className='px-24 font-semibold text-[1.5rem] text-gray-400'>Here's my all projects.</h3>
+                <h1 className='px-5 md:px-24 font-semibold text-[2rem]'>All Creative projects.</h1>
+                <h3 className='px-5 md:px-24 font-semibold text-[1.5rem] text-gray-400'>Here's my all projects.</h3>
 
                 {/* Weather*/}
                 <div className='flex h-lvh lg:flex-row flex-col lg:items-center justify-evenly'>
@@ -138,7 +138,7 @@ const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="aboutimage py-10 lg:pe-5 border border-neutral-600 rounded-xl">
+                        <div className="aboutimage py-10 lg:pe-5 rounded-xl">
                             <img src="assets/triangle.png" alt="image" className='lg:w-[50rem] rounded-lg' />
                         </div>
                     </div>

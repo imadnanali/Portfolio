@@ -15,11 +15,11 @@ const Navbar = () => {
                         </div>
                     </Link>
                     <div className='md:flex hidden items-center gap-10 list-none font-semibold'>
-                        <Link to='home' spy={true} smooth={true} offset={-100} duration={500} >  <li className='"text-md text-neutral-400 hover:text-white transition ease-in-out duration-200 px-4 py-2 rounded-full border border-black  hover:border-neutral-500 cursor-pointer'>Home</li></Link>
-                        <Link to='about' spy={true} smooth={true} offset={-100} duration={500} >  <li className='"text-md text-neutral-400 hover:text-white transition ease-in-out duration-200 px-4 py-2 rounded-full border border-black hover:border-neutral-500 cursor-pointer'>About Me</li></Link>
-                        <Link to='skills' spy={true} smooth={true} offset={-100} duration={500} >  <li className='"text-md text-neutral-400 hover:text-white transition ease-in-out duration-200 px-4 py-2 rounded-full border border-black hover:border-neutral-500 cursor-pointer'>Skills</li></Link>
-                        <Link to='project' spy={true} smooth={true} offset={-100} duration={500} >  <li className='"text-md text-neutral-400 hover:text-white transition ease-in-out duration-200 px-4 py-2 rounded-full border border-black  hover:border-neutral-500 cursor-pointer'>Projects</li></Link>
-                        <Link to='contact' spy={true} smooth={true} offset={-100} duration={500} >  <li className='"text-md text-neutral-400 hover:text-white transition ease-in-out duration-200 px-4 py-2 rounded-full border border-black hover:border-neutral-500 cursor-pointer'>Contact</li></Link>
+                        <Link to='home' spy={true} smooth={true} offset={-100} duration={500} >  <li className='"text-md text-green-400 hover:text-white transition ease-in-out duration-200 px-4 py-2 rounded-full  cursor-pointer'>Home</li></Link>
+                        <Link to='about' spy={true} smooth={true} offset={-100} duration={500} >  <li className='"text-md text-green-400 hover:text-white transition ease-in-out duration-200 px-4 py-2 rounded-full cursor-pointer'>About Me</li></Link>
+                        <Link to='skills' spy={true} smooth={true} offset={-100} duration={500} >  <li className='"text-md text-green-400 hover:text-white transition ease-in-out duration-200 px-4 py-2 rounded-full cursor-pointer'>Skills</li></Link>
+                        <Link to='project' spy={true} smooth={true} offset={-100} duration={500} >  <li className='"text-md text-green-400 hover:text-white transition ease-in-out duration-200 px-4 py-2 rounded-full  cursor-pointer'>Projects</li></Link>
+                        <Link to='contact' spy={true} smooth={true} offset={-100} duration={500} >  <li className='"text-md text-green-400 hover:text-white transition ease-in-out duration-200 px-4 py-2 rounded-full cursor-pointer'>Contact</li></Link>
                     </div>
                     <div className='flex md:hidden'>
                         <Hamburger />

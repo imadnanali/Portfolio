@@ -9,7 +9,7 @@ const Home = () => {
   return (
       <div className="head h-lvh" id='home'>
         <img className='absolute top-40 md:top-20 md:w-44 w-30 md:h-56 h-40 md:ms-20 invert opacity-15 ' src="https://svgsilh.com/svg/26432.svg" alt="" />
-        <div className="relative flex justify-center flex-col md:ms-20 items-start h-lvh px-8 ">
+        <div className="relative flex justify-center flex-col md:ms-20 items-start min-h-lvh px-8 ">
           {/* Text Section */}
           <div className="z-10">
             <p className="text-green-400 font-semibold md:text-4xl text-2xl">Hey there!, I'm-</p>

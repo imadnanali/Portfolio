@@ -8,11 +8,11 @@ import Title from './Title';
 const Home = () => {
   return (
       <div className="head h-lvh" id='home'>
-        <img className='absolute top-40 md:top-20 md:w-44 w-30 md:h-56 h-40 md:ms-20 invert opacity-15 ' src="https://svgsilh.com/svg/26432.svg" alt="" />
+        <img className='absolute top-[8.5rem] md:left-0 left-2 md:top-20 md:w-44 w-24 md:h-56 h-40 md:ms-20 invert md:opacity-15 opacity-10 ' src="https://svgsilh.com/svg/26432.svg" alt="" />
         <div className="relative flex justify-center flex-col md:ms-20 items-start min-h-lvh px-8 ">
           {/* Text Section */}
           <div className="z-10">
-            <p className="text-green-400 font-semibold md:text-4xl text-2xl">Hey there!, I'm-</p>
+            <p className="text-green-400 font-semibold md:text-4xl md:mt-0 mt-[-14rem] text-2xl">Hey there!, I'm-</p>
             <h1 className="md:text-[10rem] text-6xl font-bold py-10 mt-[-2rem] ">Adnan Ali.</h1>
             <h2 className="md:text-3xl text-2xl font-semibold mt-[-2rem] "><Title /><h1 className='text-gray-400 mt-4'>Currently mastering React with hands-on projects.</h1></h2>
             <div className="buttons flex gap-5 mt-10">

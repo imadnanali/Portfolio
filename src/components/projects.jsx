@@ -75,7 +75,7 @@ const Projects = () => {
                             </h1>
                             <div className="flex flex-wrap gap-4">
                                 <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
-                                    Html
+                                    HTML
                                 </h1>
                                 <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
                                     CSS
@@ -113,7 +113,7 @@ const Projects = () => {
                             </h1>
                             <div className="flex flex-wrap gap-4">
                                 <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
-                                    Html
+                                    HTML
                                 </h1>
                                 <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
                                     Tailwind

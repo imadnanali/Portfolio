@@ -8,6 +8,7 @@ import Projects from './components/projects';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
 
 <div className='Contact '>
     <ContactMe/>
+    <Footer />
 </div>
 
 

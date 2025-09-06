@@ -9,6 +9,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';
 import Footer from './components/Footer';
+import Certificates from './components/Certificates';
 
 function App() {
 
@@ -22,10 +23,9 @@ function App() {
 
         {/* Projects  */}
         <div className="allProjects">
-
-
   <Projects/>         
         </div>
+        <Certificates />
 
 
 <div className='Contact '>

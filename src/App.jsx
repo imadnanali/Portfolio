@@ -16,33 +16,21 @@ function App() {
   return (
     <>
       <div className='bg-black text-white'>
-        <Navbar/>
+        <Navbar />
         <Home />
         <AboutMe />
-        <Skills/>
+        <Skills />
 
         {/* Projects  */}
         <div className="allProjects">
-  <Projects/>         
+          <Projects />
         </div>
         <Certificates />
-
-
-<div className='Contact '>
-    <ContactMe/>
-    <Footer />
-</div>
-
-
-
-
-
-
-
+        <div className='Contact '>
+          <ContactMe />
+          <Footer />
+        </div>
       </div>
-
-
-
     </>
   )
 }

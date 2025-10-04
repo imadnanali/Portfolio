@@ -9,7 +9,7 @@ export default function Footer() {
           <span className="font-semibold text-green-400">Adnan Ali</span>
         </p>
         <p className="mt-1">
-          Built with Vite React & Tailwind CSS | Hosted on GitHub Pages
+          Built with Vite React & Tailwind CSS | Hosted on Render
         </p>
       </div>
     </footer>

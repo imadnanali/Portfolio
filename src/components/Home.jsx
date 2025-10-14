@@ -16,7 +16,7 @@ const Home = () => {
             <h1 className="md:text-[10rem] text-6xl font-bold py-10 mt-[-2rem] ">Adnan Ali.</h1>
             <h2 className="md:text-3xl text-2xl font-semibold mt-[-2rem] "><Title /><h1 className='text-gray-400 mt-4'>Currently mastering React with hands-on projects.</h1></h2>
             <div className="buttons flex gap-5 mt-10">
-              <a href="assets/Adnan Ali Resume.pdf" download>
+              <a href="assets/Adnan_Ali_Resume.pdf" download>
                 <button className='font-semibold  bg-neutral-900 hover:bg-neutral-800 transition-all ease-in-out  px-4 py-2 rounded-md flex items-center gap-2'><FaFileDownload color='#4ade80' />Resume</button>
               </a>
               <Link to='contact' spy={true} smooth={true} offset={-100} duration={500} ><a href="#">

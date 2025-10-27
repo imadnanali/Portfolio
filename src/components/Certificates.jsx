@@ -21,14 +21,6 @@ const certificates = [
   {
     id: 3,
     date: "2025",
-    title: "Microsoft Certification",
-    subtitle: "Web Developer",
-    description: "Web Developer",
-    link: "https://drive.google.com/file/d/16LNifnPOvDyG6jVcbve8adfmi4BmbBZ8/view?usp=drivesdk",
-  },
-  {
-    id: 4,
-    date: "2025",
     title: "Internship Certificate",
     subtitle: "Congnifyz Technologies",
     description: "Full Stack Development Intern",

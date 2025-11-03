@@ -5,14 +5,14 @@ import { BsArrowUpRight } from "react-icons/bs";
 const Projects = () => {
     const links = {
         github: {
+            gemai: "https://github.com/imadnanali/GemAi",
             airbnb: "https://github.com/imadnanali/Airbnb",
             triangle: "https://github.com/imadnanali/Triangle-Finder",
-            weather: "https://github.com/imadnanali/Weather-App",
         },
         live: {
+            gemai: "https://gemai-tgq7.onrender.com/",
             airbnb: "https://airbnb-uaja.onrender.com/listings",
             triangle: "https://imadnanali.github.io/Triangle-Finder/",
-            weather: "https://imadnanali.github.io/Weather-App/",
         }
     }
 
@@ -23,6 +23,53 @@ const Projects = () => {
 
                 <h1 className='px-5 md:px-24 font-semibold text-[2rem]'>All Creative projects.</h1>
                 <h3 className='px-5 md:px-24 font-semibold text-[1.5rem] text-gray-400'>Here's my all projects.</h3>
+
+
+                {/* Weather*/}
+                <div className='flex h-lvh lg:flex-row flex-col lg:items-center justify-evenly'>
+                    <div className="skills lg:py-5 lg:pt-10 pt-5 px-5 lg:ps-5 lg:w-1/4">
+                        <h1 className="heading py-10 uppercase font-semibold text-xl">
+                            GemAi
+                        </h1>
+                        <div className="flex flex-wrap gap-4">
+                            <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
+                                React.js
+                            </h1>
+                            <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
+                                Node.js
+                            </h1>
+                            <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
+                                MongoDB
+                            </h1>
+                            <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
+                                JWT Authentication
+                            </h1>
+                            <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
+                                Express.js
+                            </h1>
+                        </div>
+                        <h1 className="pt-5 text-neutral-400 leading-relaxed text-sm">
+                            <span className='text-green-400 font-semibold italic'>🧠 GemAi</span> – an intelligent full-stack chat app built with <span className='text-green-400 font-semibold italic'>React.js, Node.js</span>, and <span className='text-green-400 font-semibold italic'>MongoDB</span>.
+                            It features <span className='text-green-400 font-semibold italic'>JWT authentication, real-time AI chat</span>, and <span className='text-green-400 font-semibold italic'>threaded conversation management</span> — delivering a clean, fast, and responsive user experience.
+                            Integrated <span className='text-green-400 font-semibold italic'>with modern APIs</span> to provide smooth and context-aware AI interactions.
+                        </h1>
+                        <div className="buttons flex gap-5 py-10">
+                            <a href={links.github.gemai}>
+                                <button className='font-semibold transition ease-in-out duration-300 bg-black text-white hover:text-black hover:bg-white rounded-full p-5 border border-neutral-500'>
+                                    <TbBrandGithubFilled size={25} />
+                                </button>
+                            </a>
+                            <a href={links.live.gemai}>
+                                <button className='font-semibold transition ease-in-out duration-300 bg-white text-black hover:text-white hover:bg-black hover:border border  rounded-full p-5 relative right-10'>
+                                    <BsArrowUpRight size={25} />
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="aboutimage py-10 lg:pe-5">
+                        <img src="assets/gemai.png" alt="image" className='lg:w-[50rem] rounded-lg' />
+                    </div>
+                </div>
 
                 {/* Airbnb Clone */}
                 <div className='projectcard'>
@@ -106,43 +153,7 @@ const Projects = () => {
                 </div>
 
 
-                {/* Weather*/}
-                <div className='flex h-lvh lg:flex-row flex-col lg:items-center justify-evenly'>
-                    <div className="skills lg:py-5 lg:pt-10 pt-5 px-5 lg:ps-5 lg:w-1/4">
-                        <h1 className="heading py-10 uppercase font-semibold text-xl">
-                            Weather App
-                        </h1>
-                        <div className="flex flex-wrap gap-4">
-                            <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
-                                HTML
-                            </h1>
-                            <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
-                                CSS
-                            </h1>
-                            <h1 className="px-3 py-1 rounded-full border border-neutral-500 text-neutral-400 leading-relaxed text-base">
-                                JavaScript
-                            </h1>
-                        </div>
-                        <h1 className="pt-5 text-neutral-400 leading-relaxed text-sm">
-                            <span className='text-green-400 font-semibold italic'>Weater App</span> – A responsive website built using JavaScript, allowing users to check <span className='text-green-400 font-semibold italic'>real-time weather</span> conditions by entering a city name. It details like <span className='text-green-400 font-semibold italic'>temperature, weather conditions, and location</span> with an interactive search functionality and a clean UI.
-                        </h1>
-                        <div className="buttons flex gap-5 py-10">
-                            <a href={links.github.weather}>
-                                <button className='font-semibold transition ease-in-out duration-300 bg-black text-white hover:text-black hover:bg-white rounded-full p-5 border border-neutral-500'>
-                                    <TbBrandGithubFilled size={25} />
-                                </button>
-                            </a>
-                            <a href={links.live.weather}>
-                                <button className='font-semibold transition ease-in-out duration-300 bg-white text-black hover:text-white hover:bg-black hover:border border  rounded-full p-5 relative right-10'>
-                                    <BsArrowUpRight size={25} />
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                    <div className="aboutimage py-10 lg:pe-5">
-                        <img src="assets/weather.png" alt="image" className='lg:w-[50rem] rounded-lg' />
-                    </div>
-                </div>
+
 
 
 

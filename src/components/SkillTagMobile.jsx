@@ -2,10 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import * as THREE from 'three';
 
 const SkillTagMobile = () => {
-  const containerRef = useRef(null); // Use ref to target the container div
+  const containerRef = useRef(null); 
 
   useEffect(() => {
-    // Ensure the ref is set
     if (!containerRef.current) return;
 
     const scn = new THREE.Scene();
@@ -27,8 +26,8 @@ const SkillTagMobile = () => {
     ].map((i) => `assets/${i}.svg`);
 
     const sps = [];
-    const radius = 27; // Radius of the sphere
-    const size = 6; // Size of the icons
+    const radius = 27;
+    const size = 6;
 
     // Set up renderer
     rndr.setSize(300, 300); 

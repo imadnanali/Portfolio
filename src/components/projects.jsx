@@ -25,7 +25,7 @@ const Projects = () => {
                 <h3 className='px-5 md:px-24 font-semibold text-[1.5rem] text-gray-400'>Here's my all projects.</h3>
 
 
-                {/* Weather*/}
+                {/* GemAi*/}
                 <div className='flex h-lvh lg:flex-row flex-col lg:items-center justify-evenly'>
                     <div className="skills lg:py-5 lg:pt-10 pt-5 px-5 lg:ps-5 lg:w-1/4">
                         <h1 className="heading py-10 uppercase font-semibold text-xl">

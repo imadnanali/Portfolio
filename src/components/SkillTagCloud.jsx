@@ -15,10 +15,9 @@ const SkillTagCloud = () => {
     const ldr = new THREE.TextureLoader();
 
     // const icons = [
-    //   'arduino', 'azure', 'bootstrap', 'chrome', 'css', 'express', 'figma',
-    //   'git', 'github', 'html', 'javascript', 'jquery', 'mongo', 'nextjs',
-    //   'nodejs', 'photoshop', 'python', 'react', 'rpi', 'sass', 'sql',
-    //   'typescript', 'vscode',
+    //   'arduino', 'azure', 'bootstrap', 'chrome', 'figma',
+    //   'jquery', 'photoshop', 'python', 'rpi', 'sass', 'sql',
+    //   'typescript',
     // ].map((i) => `/assets/${i}.svg`);
     const icons = [
       'bootstrap', 'css', 'express', 'figma',
@@ -32,7 +31,7 @@ const SkillTagCloud = () => {
 
     // Set up renderer
     rndr.setSize(375, 375); 
-    containerRef.current.appendChild(rndr.domElement); // Append renderer to the container
+    containerRef.current.appendChild(rndr.domElement); 
 
     // Create sprites and position them
     icons.forEach((path, index) =>

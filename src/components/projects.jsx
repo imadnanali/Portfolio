@@ -59,8 +59,8 @@ const Projects = () => {
                                     <TbBrandGithubFilled size={25} />
                                 </button>
                             </a>
-                            <a href={links.live.gemai}>
-                                <button className='font-semibold transition ease-in-out duration-300 bg-white text-black hover:text-white hover:bg-black hover:border border  rounded-full p-5 relative right-10'>
+                            <a href={links.live.gemai} className='relative right-10'>
+                                <button className='font-semibold transition ease-in-out duration-300 bg-white text-black hover:text-white hover:bg-black hover:border border  rounded-full p-5 '>
                                     <BsArrowUpRight size={25} />
                                 </button>
                             </a>
@@ -101,8 +101,8 @@ const Projects = () => {
                                         <TbBrandGithubFilled size={25} />
                                     </button>
                                 </a>
-                                <a href={links.live.airbnb}>
-                                    <button className='font-semibold transition ease-in-out duration-300 bg-white text-black hover:text-white hover:bg-black hover:border border  rounded-full p-5 relative right-10'>
+                                <a href={links.live.airbnb} className='relative right-10'>
+                                    <button className='font-semibold transition ease-in-out duration-300 bg-white text-black hover:text-white hover:bg-black hover:border border  rounded-full p-5 '>
                                         <BsArrowUpRight size={25} />
                                     </button>
                                 </a>
@@ -139,8 +139,8 @@ const Projects = () => {
                                         <TbBrandGithubFilled size={25} />
                                     </button>
                                 </a>
-                                <a href={links.live.triangle}>
-                                    <button className='font-semibold transition ease-in-out duration-300 bg-white text-black hover:text-white hover:bg-black hover:border border  rounded-full p-5 relative right-10'>
+                                <a href={links.live.triangle} className='relative right-10'>
+                                    <button className='font-semibold transition ease-in-out duration-300 bg-white text-black hover:text-white hover:bg-black hover:border border  rounded-full p-5 '>
                                         <BsArrowUpRight size={25} />
                                     </button>
                                 </a>
